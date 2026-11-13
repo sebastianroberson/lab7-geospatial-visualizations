@@ -2,8 +2,9 @@
 import mapboxgl from 'https://cdn.jsdelivr.net/npm/mapbox-gl@2.15.0/+esm';
 import * as d3 from 'https://cdn.jsdelivr.net/npm/d3@7.9.0/+esm';
 
-// TODO: replace with your own public Mapbox access token (starts with "pk.")
-mapboxgl.accessToken = 'YOUR_MAPBOX_ACCESS_TOKEN';
+// Public Mapbox access token
+mapboxgl.accessToken =
+  'pk.eyJ1Ijoic3JvYmVyc29uIiwiYSI6ImNtd2ZlNjYwYTAwYW8yeXBsYWkwdzV0cXEifQ.h2GjVt9OnxDzOvsstoKFhA';
 
 const DATA = {
   boston:
